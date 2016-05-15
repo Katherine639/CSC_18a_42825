@@ -1,0 +1,9 @@
+Part 1:  In our Fractions class we have completed in class, for the methods: add, subtract, multiply, and divide, rewrite the code inside their respective non-static methods so they internally call the respective static method.
+
+Part 2: For each of the static AND non-static methods for add, subtract, multiply, divide, write a MINIMUM of 2 new test methods inside the jUnitTest class.
+
+Plan:
+	Comment out old code from non-static methods and convert thrn to return the static version.
+	do this by returning Fraction.((method)(f1,f2)).
+
+	After for step 2 test diffrent cases most should pass.
